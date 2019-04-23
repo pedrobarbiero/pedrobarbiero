@@ -69,3 +69,5 @@ topics:
     web_url: https://hexdocs.pm/absinthe/overview.html
     image_url: https://hexdocs.pm/absinthe/assets/logo.png
     
+
+theme: jekyll-theme-architect
