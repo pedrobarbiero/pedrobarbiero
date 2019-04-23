@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -17,40 +17,55 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
-  #   - pushed
   #   - stars
-  limit: 9
+  #   - pushed
+  limit: 6
   exclude:
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
-  # medium: your_username
+  linkedin: pedrobarbiero
+  medium: pedrobarbiero
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+  twitter: pedrobarbiero
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: C#
+    web_url: https://docs.microsoft.com/en/dotnet/csharp/
+    image_url: https://www.onlinebooksreview.com/uploads/blog_images/2018/01/27_c-sharp-logo-filled.png
 
-  - name: Web design
+  - name: .Net Core
+    web_url: https://docs.microsoft.com/en/dotnet/core/
+    image_url: https://docs.microsoft.com/pt-br/dotnet/images/hub/netcore.svg
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Elixir
+    web_url: https://elixir-lang.org/
+    image_url: https://www.sportmonks.com/img/packages/elixir.png
+
+  - name: Phoenix Framework
+    web_url: https://phoenixframework.org/
+    image_url: https://hexdocs.pm/phoenix/assets/logo.png
+
+  - name: Javascript
+    web_url: https://www.javascript.com/
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/200px-Unofficial_JavaScript_logo_2.svg.png
+
+  - name: Absinthe - Graphql
+    web_url: https://hexdocs.pm/absinthe/overview.html
+    image_url: https://hexdocs.pm/absinthe/assets/logo.png
+    
